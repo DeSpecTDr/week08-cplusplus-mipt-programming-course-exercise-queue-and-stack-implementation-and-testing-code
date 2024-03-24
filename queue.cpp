@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cstddef>
 
 struct Node {
   Node* next;
@@ -79,6 +79,3 @@ bool empte() { return size_ == 0;}
 
 };
 
-int main() {
-  return 0;
-}
