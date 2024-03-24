@@ -65,11 +65,11 @@ struct Queue {
     }
 
 Node* front() {
-  return TAIL;
+  return HEAD;
 }
 
 Node*  back() {
-  return HEAD;
+  return TAIL;
 }
 
 size_t size() { return size_;}
