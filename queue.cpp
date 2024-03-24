@@ -22,10 +22,11 @@ struct Queue {
   void pop() {
     if (HEAD != NIL) {
       if (HEAD == TAIL) {
-        delete TAIL;
+        if (HEAD != nullptr){
+        //delete TAIL;
         delete HEAD;
         HEAD = NIL;
-        TAIL = NIL;
+        TAIL = NIL;}
       } 
       else if (HEAD != TAIL) {
         Node* head = HEAD;
