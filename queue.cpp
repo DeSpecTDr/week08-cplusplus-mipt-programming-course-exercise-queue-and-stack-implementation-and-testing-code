@@ -76,7 +76,7 @@ Node*  back() {
 size_t size() { return size_;}
 
 
-bool empte() { return size_ == 0;}
+bool empty() { return size_ == 0;}
 
 };
 
